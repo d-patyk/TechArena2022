@@ -21,7 +21,8 @@ using namespace std;
 
 typedef long double ld;
 
-const ld LD_INFINITY = numeric_limits<long double>::infinity();
-const ld LD_NINFINITY = -LD_INFINITY;
+const ld LD_INF = numeric_limits<long double>::infinity();
+
+const ld EPS = 1e-15L;
 
 #endif //TECHARENA2022_COMMONDF_H

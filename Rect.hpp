@@ -63,7 +63,9 @@ public:
         return answ;
     }
 
+    bool contains(Point p) {
 
+    }
 };
 
 

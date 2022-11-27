@@ -19,27 +19,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c839dc3-f52a-47f2-89da-2688bb708a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Point.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rect.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segment.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commondf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/06.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ray.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dasdsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rect.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segment.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Segment.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commondf.h" beforeDir="false" afterPath="$PROJECT_DIR$/commondf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <list id="c8f3f24b-320c-4663-aea8-3be997fe8a3d" name="Changes by User" comment="">
-      <change afterPath="$PROJECT_DIR$/Line.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Polygon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Line.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Line.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,7 @@
       <workItem from="1669534637283" duration="5000" />
       <workItem from="1669535587212" duration="2406000" />
       <workItem from="1669539091692" duration="454000" />
-      <workItem from="1669539756278" duration="7196000" />
+      <workItem from="1669539756278" duration="7898000" />
     </task>
     <servers />
   </component>

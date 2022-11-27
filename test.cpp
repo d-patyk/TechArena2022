@@ -32,8 +32,8 @@ Rect shit_solver_rect(const string &filename) {
     vector<Point> poly(n);
     for (int i = 0; i < n; ++i) fin >> poly[i].x >> poly[i].y;
 
-    ld x_min = INFINITY, y_min = ;
-    ld x_max = -INFINITY, y_max = -INFINITY;
+    ld x_min = LD_INF, y_min = LD_INF;
+    ld x_max = -LD_INF, y_max = -LD_INF;
 
     for (auto&& p : poly) {
         x_min = min(x_min, p.x);
@@ -49,6 +49,10 @@ Rect shit_solver_rect(const string &filename) {
 void shit_solver(const string &filename) {
     cout << "1" << "\n";
     cout << shit_solver_rect(filename).to_raw() << "\n\n";
+}
+
+bool is_good_solution() {
+
 }
 
 void solver1(const string &filename) {
@@ -82,6 +86,8 @@ void solver1(const string &filename) {
         cout << rect.to_raw() << "\n";
     }
 }
+
+
 
 int main() {
     vector<string> tests{

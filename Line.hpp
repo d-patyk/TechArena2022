@@ -16,10 +16,15 @@ public:
         this->n = (p2 - p1).normal();
     }
 
-    ld A() {return n.x}
+    ld A() {return n.x;}
+    ld B() {return n.y;}
+    ld C() {return -(p.x * A() + p.y * B());}
 
     Point intersect(Line line) {
-
+        if (n % line.n < EPS) return Point(-LD_INF, -LD_INF);
+        ld x = -(C() * line.B() - line.C() * B()) / (n % line.n);
+        ld y = -(C() * line.A() - line.C() * A()) / (n % line.n);
+        return Point(x, y);
     }
 };
 
