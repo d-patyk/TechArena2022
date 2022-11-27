@@ -5,7 +5,7 @@
 #ifndef TECHARENA2022_RAY_H
 #define TECHARENA2022_RAY_H
 
-#include "Line.hpp"
+#include "Segment.hpp"
 
 class Ray {
 public:
@@ -16,12 +16,23 @@ public:
         u = b - a;
     }
 
-    Line line() {
-        return Line()
+    Line to_line() {
+        return Line(p, p + u);
     }
 
     Point intersect_line(Line line) {
+        Point x = to_line().intersect(line);
+        if (x.x == -LD_INF && x.y == -LD_INF) return x;
+        if ((x - p) * u > 0 - EPS) return x;
+        return Point(-LD_INF, -LD_INF);
+    };
 
+    Point intersect_seg(Segment seg) {
+        Line line = seg.get_line();
+        Point x = intersect_line(line);
+        if (x.x == -LD_INF && x.y == -LD_INF) return x;
+        if (seg.contains(x)) return x;
+        return Point(-LD_INF, -LD_INF);
     }
 };
 

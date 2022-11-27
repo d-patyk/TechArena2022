@@ -26,6 +26,10 @@ public:
 
         return contains(l1.intersect(l2));
     }
+
+    Line get_line() {
+        return Line(p1, p2);
+    }
 };
 
 

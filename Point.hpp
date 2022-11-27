@@ -28,6 +28,14 @@ public:
         return Point(this->x - other.x, this->y - other.y);
     }
 
+    Point operator/(ld k) const {
+        return Point(this->x / k, this->y / k);
+    }
+
+    Point operator*(ld k) const {
+        return Point(this->x * k, this->y * k);
+    }
+
     ld operator*(const Point &other) const {
         return this->x * other.x + this->y * other.y;
     }

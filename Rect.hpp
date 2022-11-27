@@ -5,8 +5,7 @@
 #ifndef TECHARENA2022_RECT_H
 #define TECHARENA2022_RECT_H
 
-#include "commondf.h"
-#include "Point.hpp"
+#include "Segment.hpp"
 
 class Rect {
 public:
@@ -63,8 +62,28 @@ public:
         return answ;
     }
 
-    bool contains(Point p) {
+    [[nodiscard]] vector<Segment> get_segments() const {
+        const Point
+            &p1 = left,
+            p2(left.x, right.y),
+            &p3 = right,
+            p4(right.x, left.y);
 
+        return vector<Segment>{
+            Segment(p1, p2),
+            Segment(p2, p3),
+            Segment(p3, p4),
+            Segment(p4, p1)
+        };
+    }
+
+    [[nodiscard]] vector<Point> get_points() const {
+        return vector<Point>{
+            left,
+            Point(left.x, right.y),
+            right,
+            Point(right.x, left.y)
+        };
     }
 };
 
