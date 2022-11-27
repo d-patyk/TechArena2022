@@ -20,14 +20,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c839dc3-f52a-47f2-89da-2688bb708a9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commondf.h" beforeDir="false" afterPath="$PROJECT_DIR$/commondf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
-    <list id="c8f3f24b-320c-4663-aea8-3be997fe8a3d" name="Changes by User" comment="">
-      <change beforePath="$PROJECT_DIR$/Line.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Line.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polygon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Polygon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +32,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/main.cpp">
-      <ranges>
-        <range start1="90" end1="92" start2="90" end2="96" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="93" end1="93" start2="97" end2="98" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="97" end1="98" start2="102" end2="103" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="126" end1="127" start2="131" end2="132" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="129" end1="129" start2="134" end2="156" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,7 +88,7 @@
       <workItem from="1669535587212" duration="2406000" />
       <workItem from="1669539091692" duration="454000" />
       <workItem from="1669539756278" duration="7910000" />
-      <workItem from="1669548167531" duration="4151000" />
+      <workItem from="1669548167531" duration="4809000" />
     </task>
     <servers />
   </component>
