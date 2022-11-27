@@ -19,7 +19,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c839dc3-f52a-47f2-89da-2688bb708a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dasdsa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Point.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Segment.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commondf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dasdsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+    </list>
+    <list id="c8f3f24b-320c-4663-aea8-3be997fe8a3d" name="Changes by User" comment="">
+      <change afterPath="$PROJECT_DIR$/Line.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +79,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TechArena2022" TARGET_NAME="main.cpp - Default" CONFIG_NAME="main.cpp">
-      <option name="sourceFile" value="main.cpp" />
+    <configuration name="test1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TechArena2022" TARGET_NAME="test1.cpp - Default" CONFIG_NAME="test1.cpp">
+      <option name="sourceFile" value="test1.cpp" />
       <option name="toolchainName" value="Default" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
@@ -84,7 +105,9 @@
       <workItem from="1669488245436" duration="328000" />
       <workItem from="1669488596700" duration="3093000" />
       <workItem from="1669534637283" duration="5000" />
-      <workItem from="1669535587212" duration="361000" />
+      <workItem from="1669535587212" duration="2406000" />
+      <workItem from="1669539091692" duration="454000" />
+      <workItem from="1669539756278" duration="7196000" />
     </task>
     <servers />
   </component>
