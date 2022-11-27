@@ -23,6 +23,7 @@ typedef long double ld;
 
 const ld LD_INF = numeric_limits<long double>::infinity();
 
-const ld EPS = 1e-15L;
+//const ld EPS = 1e-15L;
+const ld EPS = 1e-10L;
 
 #endif //TECHARENA2022_COMMONDF_H

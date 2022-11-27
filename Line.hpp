@@ -18,12 +18,12 @@ public:
 
     ld A() {return n.x;}
     ld B() {return n.y;}
-    ld C() {return -(p.x * A() + p.y * B());}
+    ld C() {return -(p * n);}
 
     Point intersect(Line line) {
-        if (n % line.n < EPS) return Point(-LD_INF, -LD_INF);
+        if (abs(n % line.n) < EPS) return Point(-LD_INF, -LD_INF);
         ld x = -(C() * line.B() - line.C() * B()) / (n % line.n);
-        ld y = -(C() * line.A() - line.C() * A()) / (n % line.n);
+        ld y = -(A() * line.C() - line.A() * C()) / (n % line.n);
         return Point(x, y);
     }
 };

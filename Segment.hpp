@@ -18,7 +18,8 @@ public:
     }
 
     bool contains(const Point &p) {
-        return p1.dist(p) + p2.dist(p) - len() < EPS;
+        return abs((p - p1) % (p - p2)) < EPS;
+        //return p1.dist(p) + p2.dist(p) - len() < EPS;
     }
 
     bool intersect(const Segment &other) {

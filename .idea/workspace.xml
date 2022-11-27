@@ -19,19 +19,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c839dc3-f52a-47f2-89da-2688bb708a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polygon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Polygon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ray.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ray.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rect.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rect.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Segment.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Segment.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commondf.h" beforeDir="false" afterPath="$PROJECT_DIR$/commondf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <list id="c8f3f24b-320c-4663-aea8-3be997fe8a3d" name="Changes by User" comment="">
-      <change beforePath="$PROJECT_DIR$/Point.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Point.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Line.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Line.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Polygon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Polygon.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ray.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ray.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,33 +44,11 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/main.cpp">
       <ranges>
-        <range start1="5" end1="5" start2="5" end2="7" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="25" end1="33" start2="27" end2="30" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="47" end1="52" start2="44" end2="44" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="53" end1="54" start2="45" end2="47" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="55" end1="55" start2="48" end2="51" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="89" end1="89" start2="85" end2="99" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="90" end1="90" start2="100" end2="105" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="92" end1="94" start2="107" end2="108" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="103" end1="103" start2="117" end2="122" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="107" end1="117" start2="126" end2="128" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="118" end1="118" start2="129" end2="133" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Ray.hpp">
-      <ranges>
-        <range start1="7" end1="8" start2="7" end2="8" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="18" end1="20" start2="18" end2="20" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="23" end1="23" start2="23" end2="28" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="24" end1="24" start2="29" end2="35" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/Polygon.hpp">
-      <ranges>
-        <range start1="7" end1="8" start2="7" end2="9" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="13" end1="13" start2="14" end2="16" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
-        <range start1="17" end1="19" start2="20" end2="31" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
-        <range start1="20" end1="20" start2="32" end2="64" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
+        <range start1="90" end1="92" start2="90" end2="96" changelist="c8f3f24b-320c-4663-aea8-3be997fe8a3d" />
+        <range start1="93" end1="93" start2="97" end2="98" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
+        <range start1="97" end1="98" start2="102" end2="103" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
+        <range start1="126" end1="127" start2="131" end2="132" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
+        <range start1="129" end1="129" start2="134" end2="156" changelist="9c839dc3-f52a-47f2-89da-2688bb708a9e" />
       </ranges>
     </file>
   </component>
@@ -133,7 +107,7 @@
       <workItem from="1669535587212" duration="2406000" />
       <workItem from="1669539091692" duration="454000" />
       <workItem from="1669539756278" duration="7910000" />
-      <workItem from="1669548167531" duration="2620000" />
+      <workItem from="1669548167531" duration="4151000" />
     </task>
     <servers />
   </component>

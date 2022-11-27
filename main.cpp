@@ -88,14 +88,19 @@ vector<Rect> div(Test &test, int k) {
     Rect big_rect = shit_solver_rect(test);
     Point u = (big_rect.right - big_rect.left) / k;
     for (int i = 0; i < k; ++i) {
-        Rect rect = Rect(big_rect.left + u * i, big_rect.right + u * (i + 1));
-        if (test.poly.intersects(rect)) res.push_back(rect);
+        for (int j = 0; j < k; ++j) {
+            Point left = Point(big_rect.left.x + i * u.x, big_rect.left.y + j * u.y);
+            Point right = left + u;
+            Rect rect = Rect(left, right);
+            if (test.poly.intersects(rect)) res.push_back(rect);
+        }
     }
+
     return res;
 }
 
 void print(const string &filename, const vector<Rect> &rects){
-    cout << "filename" << "\n";
+    cout << filename << "\n";
     cout << rects.size() << "\n";
 
     for (auto rect : rects)
@@ -124,9 +129,31 @@ int main() {
     cout.precision(20);
     ios_base::sync_with_stdio(0);
 
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 1; i++) {
         print(filenames[i], div(tests[i], 10));
     }
+
+    polygon_maker(filenames[0]);
+
+    Rect r(Point(120.093910201L, 98.111822497L), Point(167.66175563600000001, 139.16611467699999999));
+
+    tests[0].poly.intersects(r);
+
+
+    for (auto&& rect : div(tests[0], 10)) {
+        cout << rect.to_geogebra() << endl;
+    }
+
+//
+//    Polygon p(Rect(Point(-5, -5), Point(5, 5)).get_points());
+//    Point p1(-5, -7), p2(5, 5);
+//    Point p3(5, -5), p4(-5, 8);
+//
+//    cout << p.in_polygon(Point(1, 2)) << endl;
+//
+//    cout << Ray(p1, p2).intersect_line(Line(p3, p4)).to_string() << endl;
+//    cout << Segment(Point(-5, -5), Point(5, 5)).contains(Point(2, 3)) << endl;
+
 
 //    for (int i = 1; i <= 7; i++) {
 //        shit_solver(tests[i]);

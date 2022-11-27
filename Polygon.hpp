@@ -19,13 +19,11 @@ public:
     }
 
     bool in_polygon(Point p) const {
-        Point x = Point(rand(), rand());
+        Point x = Point(rand() % 32000, rand() % 32000);
         Ray ray = Ray(p, x);
         int cnt = 0;
         for (int i = 0; i < vertex.size(); ++i) {
-            Point a = vertex[i];
-            Point b = vertex[(i + 1) % vertex.size()];
-            Point k = ray.intersect_seg(Segment(a, b));
+            Point k = ray.intersect_seg(Segment(vertex[i], vertex[(i + 1) % vertex.size()]));
             cnt += !(k.x == -LD_INF && k.y == -LD_INF);
         }
         return (cnt % 2);
